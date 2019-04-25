@@ -1,0 +1,342 @@
+body {
+    background-image: url(../background_morocco/morocco.png);
+    margin: 0px;
+    position: relative;
+    height: 100%;
+}
+.master {
+    height: 100%;
+}
+.top {
+    background-color: white;
+    height: 80px;
+    border-bottom: 5px solid gray;
+    position: fixed;  
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    z-index: 100;
+}
+nav {
+    margin-right: 55px;
+    position: absolute;
+    bottom: 5px;
+    right: 79px;
+}
+.about {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid gray;
+    width: 55px;
+    height: auto;
+    color: darkgray;
+    font-family: helvetica;
+    text-decoration: none;
+}
+.portfolio {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid gray;
+    width: 63px;
+    height: auto;
+    color: darkgray;
+    font-family: helvetica;
+    text-decoration: none;
+}
+.contact {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60px;
+    height: auto;
+    color: darkgray;
+    font-family: helvetica;
+    text-decoration: none;
+    align-content: center;
+}
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 10%;
+    display: inline;
+    background-color: rgb(175,219,229);
+    padding: 5px;
+}
+.footer {
+    height: 50px;
+    background-color: darkgray;
+    border-top: 10px solid rgb(175,219,229);
+    text-align: center;
+    text-size-adjust: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 30px;
+}
+.picofme {
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+.aboutcontent {
+    width: 960px;
+    background-color: white;
+    position:relative;
+    padding: 20px;
+    margin: auto;
+    color: darkslategray;
+    margin-top:20px; 
+    margin-bottom: 75px;
+    top: 75px;
+}
+.aboutmehead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(175,219,229);
+    border-bottom: solid 2px gray
+}
+.aboutmecontent {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.portfoliocontent {
+    width: 960px;
+    background-color: white;
+    position:relative;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    top: 75px;
+}
+.portfoliohead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(175,219,229);
+    border-bottom: solid 2px gray
+}
+.portfolio1container {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-image: url('../images/portfolio1img.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    margin: 15px;
+}
+.portfolio2container {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-image: url('../images/portfolio2img.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    margin: 15px;
+}
+.portfolio3container {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-image: url('../images/portfolio3img.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    margin: 15px;
+}
+.portfolio4container {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-image: url('../images/portfolio4img.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    margin: 15px;
+}
+.portfolio5container {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-image: url('../images/portfolio5img.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    margin: 15px;
+}
+.portfolio1text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(175,219,229);
+    width: 100%;
+    top: 250px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px 0px;
+}
+.portfolio2text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(175,219,229);
+    width: 100%;
+    top: 250px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px 0px;
+}
+.portfolio3text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(175,219,229);
+    width: 100%;
+    top: 250px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px 0px;
+}
+.portfolio4text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(175,219,229);
+    width: 100%;
+    top: 250px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px 0px;
+}
+.portfolio5text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(175,219,229);
+    width: 100%;
+    top: 250px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px 0px;
+}
+.contactcontent {
+    width: 960px;
+    height: 100%;
+    background-color: white;
+    position:relative;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    top: 75px;
+}
+.contacthead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(175,219,229);
+    border-bottom: solid 2px gray
+}
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 25px;
+}
+.contactmename {
+    position: inline;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 25px;
+}
+.contactmeemail {
+    position: inline;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#message {
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.contactmemessage {
+    position: inline;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submitbutton {
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: rgb(175,219,229);
+    color: white;
+}
+
+/*`980px`, `768px` and `640px`. */
+
+@media screen and (max-width: 640px) {
+    .about, .portfolio, .contact {
+        display: block;
+        border: none;
+    }
+    body {
+        width: 580px;
+    }
+    .aboutcontent {
+        width: 560px;
+        position: absolute;
+        margin: 20px;
+    }
+    .portfoliocontent {
+        width: 560px;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+    .contactcontent {
+        width: 540px;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 700px;
+    }
+    .aboutcontent {
+        width: 660px;
+        position: absolute;
+        margin: 20px;
+        margin-bottom: 70px;
+    }
+    .portfoliocontent {
+        width: 660px;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+    .contactcontent {
+        width: 540px;
+        margin-left: 60px;
+    }
+}
+
+/* not much needed here since the original design was done on a width close to this size */
+@media screen and (max-width: 980px) {
+    body {
+        width: 900px;
+    }
+
+}
