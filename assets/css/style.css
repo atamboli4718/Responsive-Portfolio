@@ -87,7 +87,7 @@ nav {
     padding: 0px 20px 10px 0px;
 }
 .aboutcontent {
-    width: 960px;
+    width: 90%;
     background-color: white;
     position:relative;
     padding: 20px;
@@ -107,7 +107,7 @@ nav {
     margin-bottom: 30px;
 }
 .portfoliocontent {
-    width: 960px;
+    width: 90%;
     background-color: white;
     position:relative;
     padding: 20px;
@@ -232,8 +232,7 @@ nav {
     padding: 10px 0px 0px;
 }
 .contactcontent {
-    width: 960px;
-    height: 100%;
+    width: 90%;
     background-color: white;
     position:relative;
     padding: 20px;
@@ -292,43 +291,85 @@ nav {
         display: block;
         border: none;
     }
+    .name {
+    font-size: 15px;
+    top: 35%;
+    }
+
     body {
-        width: 580px;
+        width: 100%;
+    }
+    img {
+     width:30%;
+     height: auto;
+    }
+    .master {
+        width: 95%;
     }
     .aboutcontent {
-        width: 560px;
+        width: 85%;
         position: absolute;
         margin: 20px;
+        padding-right: 0px;
     }
     .portfoliocontent {
-        width: 560px;
+        width: 85%;
         margin: 20px;
         margin-bottom: 100px;
+        padding-right: 0px;
     }
+    .portfolio1container,
+    .portfolio2container,
+    .portfolio3container,
+    .portfolio4container,
+    .portfolio5container {
+        height: 200px;
+        width: 200px;
+    }
+    .portfolio1text,
+    .portfolio2text,
+    .portfolio3text,
+    .portfolio4text,
+    .portfolio5text {
+        top: none;   
+    }
+
     .contactcontent {
-        width: 540px;
+        width: 85%;
         margin-left: 30px;
+        padding-right: 0px;
     }
+#name, #email {
+    width: 80%;
+}
+.contactmemessage {
+    width: 80%;
+}
 
 }
 
 @media screen and (max-width: 768px) {
+    .master {
+        width: 95%;
+        margin: 20px;
+    }
     body {
-        width: 700px;
+        width: 100%;
+        overflow: none;
     }
     .aboutcontent {
-        width: 660px;
+        width: 85%;
         position: absolute;
         margin: 20px;
         margin-bottom: 70px;
     }
     .portfoliocontent {
-        width: 660px;
+        width: 85%;
         margin: 20px;
         margin-bottom: 100px;
     }
     .contactcontent {
-        width: 540px;
+        width: 85%;
         margin-left: 60px;
     }
 }
@@ -336,7 +377,7 @@ nav {
 /* not much needed here since the original design was done on a width close to this size */
 @media screen and (max-width: 980px) {
     body {
-        width: 900px;
+        width: 100%;
     }
 
 }
